@@ -4,7 +4,9 @@ Benjamin Barshaw <<benjamin.barshaw@ode.oregon.gov>> - IT Operations & Support N
 Requirements: 
 
 MicrosoftPowerBIMgmt PowerShell Module (Install-Module -Name MicrosoftPowerBIMgmt)
+
 Fabric/PowerBI Administrator PIM Role
+
 Must be connected to the tenant's Power BI space with Login-PowerBIServiceAccount
 
 # PBI Workspace Audit
