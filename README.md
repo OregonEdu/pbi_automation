@@ -20,6 +20,6 @@ Working Directory (CWD) as PBI_Workspace_Audit-<MMddyyyy>.csv with MMddyyyy bein
 
 # PBI Workspace Deletion
 
-This script was created as Microsoft does not make it easy for administrator to delete a Power BI Workspace from the Admin Console. You must first add your Administrator account as an Owner, then go to the workspace, go to the settings, scroll down to the bottom and hit
+This script was created as Microsoft does not make it easy for administrators to delete a Power BI Workspace from the Admin Console. You must first add your Administrator account as an Owner, then go to the workspace, go to the settings, scroll down to the bottom and hit
 "Remove". They do not have a PowerShell cmdlet (yet) that deletes them either, so you must use the Power BI REST API interface to script any sort of mass deletions. I was quite pleased to find out that they have a cmdlet "Get-PowerBIAccessToken" however as it meant not
 having to add in my functions for generating a device code to get a token. Thanks Microsoft! This script is menu-driven and does make you confirm before deleting a Workspace to avoid tears.
